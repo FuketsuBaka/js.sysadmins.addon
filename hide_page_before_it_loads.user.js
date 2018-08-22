@@ -3,7 +3,7 @@
 // @run-at       document-start
 // @name         Hide page before it loads
 // @namespace    http://sysadmins.ru/
-// @version      0.1
+// @version      0.1.1
 // @description  Hides page with opacity 0 before it fully loaded.
 // @author       Fuketsubaka
 // @match        http://sysadmins.ru/*
