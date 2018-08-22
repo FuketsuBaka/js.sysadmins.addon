@@ -5,6 +5,7 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_deleteValue
+// @run-at       document-start
 // @name         Sysadmins Meh... scripts
 // @namespace    http://sysadmins.ru/
 // @version      0.1
