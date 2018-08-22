@@ -14,7 +14,10 @@ var $ = window.jQuery;
     var css = `
 body {
    opacity: 0;
-   transition: opacity 0.5s;
+   -moz-transition: opacity 0.5s, background-color 0.5s;
+   -o-transition: opacity 0.5s, background-color 0.5s;
+   -webkit-transition: opacity 0.5s, background-color 0.5s;
+   transition: opacity 0.5s, background-color 0.5s;
 }
 body.all-loaded {
    opacity: 1;
