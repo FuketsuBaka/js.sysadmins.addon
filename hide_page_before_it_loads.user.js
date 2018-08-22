@@ -1,9 +1,10 @@
 // ==UserScript==
 // @require      http://code.jquery.com/jquery-2.2.4.min.js
+// @run-at       document-start
 // @name         Hide page before it loads
 // @namespace    http://sysadmins.ru/
 // @version      0.1
-// @description  Not needed!
+// @description  Hides page with opacity 0 before it fully loaded.
 // @author       Fuketsubaka
 // @match        http://sysadmins.ru/*
 // @grant        none
