@@ -5,7 +5,7 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_deleteValue
-// @name         Sysadmins Meh... scrips
+// @name         Sysadmins Meh... scripts
 // @namespace    http://sysadmins.ru/
 // @version      0.1
 // @description  Not available.
