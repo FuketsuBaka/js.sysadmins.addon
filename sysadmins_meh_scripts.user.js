@@ -18,10 +18,10 @@
 })();
 
 var $ = window.jQuery;
-document.addEventListener ("DOMContentLoaded", DOM_ContentReady);
-window.addEventListener ("load", pageFullyLoaded);
+document.addEventListener("DOMContentLoaded", DOM_content_ready);
+window.addEventListener("load", page_fully_loaded);
 
-function DOM_ContentReady () {
+function DOM_content_ready(){
     var menu = new user_menu();
     //console.log('---start menu init---');
     menu.init();
@@ -53,7 +53,7 @@ function DOM_ContentReady () {
     enableTab(document.getElementById("ss_edit_textarea"));
 }
 
-function pageFullyLoaded () {
+function page_fully_loaded(){
     // we might need it later
 }
 
