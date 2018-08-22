@@ -9,17 +9,17 @@
 // @grant        none
 // ==/UserScript==
 var $ = window.jQuery;
-(function() {
+(function(){
     'use strict';
     var css = `
-body {
+body{
    opacity: 0;
    -moz-transition: opacity 0.5s, background-color 0.5s;
    -o-transition: opacity 0.5s, background-color 0.5s;
    -webkit-transition: opacity 0.5s, background-color 0.5s;
    transition: opacity 0.5s, background-color 0.5s;
 }
-body.all-loaded {
+body.all-loaded{
    opacity: 1;
 }
 `
@@ -43,6 +43,6 @@ body.all-loaded {
     if(need_append) { document.getElementsByTagName('head')[0].appendChild(style); }
 })();
 
-$(window).load(function() {
+$(window).load(function(){
     $("body").addClass('all-loaded');
 });
