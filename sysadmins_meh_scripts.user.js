@@ -8,7 +8,7 @@
 // @run-at       document-start
 // @name         Sysadmins Meh... scripts
 // @namespace    http://sysadmins.ru/
-// @version      0.1
+// @version      0.1.1
 // @description  Not available.
 // @author       Fuketsubaka
 // @match        http://sysadmins.ru/*
